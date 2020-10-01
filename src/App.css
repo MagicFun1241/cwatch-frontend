@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+.video-js .vjs-big-play-button {
+    height: 2em !important;
+    width: 2em !important;
+    line-height: 1.7em !important;
+    margin-top: -1em !important;
+    margin-left: -1em;
+    border-width:4px
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.video-js .vjs-icon-play:before, .video-js .vjs-big-play-button:before {
+    font-size: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.video-js  .vjs-progress-holder {
+    font-size: 1.7em;
+    border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.video-js .vjs-progress-holder .vjs-play-progress, .video-js .vjs-progress-holder .vjs-load-progress, .video-js .vjs-progress-holder .vjs-load-progress div, .video-js .vjs-slider,.vjs-volume-level {
+    border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.video-js .vjs-load-progress {
+    background: rgba(255,255,255,0.5);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.video-js, .video-js video, .vjs-poster, .video-js .vjs-tech {
+    border-radius: 8px;
 }
